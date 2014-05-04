@@ -6,3 +6,4 @@ description      'Installs/Configures site-vbg9'
 version          '0.1.0'
 
 depends "varnish"
+depends "zabbix-quickndirty"
