@@ -4,7 +4,7 @@ Setup:
     apt-get install -y git wget
     wget https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/x86_64/chefdk_0.1.0-1_amd64.deb
     dpkg -i chefdk_0.1.0-1_amd64.deb
-    git clone https://github.com/StephenKing/site-vgb9
+    git clone https://github.com/StephenKing/site-vbg9
 
 How to apply:
 
