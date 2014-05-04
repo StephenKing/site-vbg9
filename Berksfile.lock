@@ -1,0 +1,9 @@
+DEPENDENCIES
+  site-vbg9
+    path: .
+    metadata: true
+
+GRAPH
+  site-vbg9 (0.1.0)
+    varnish (>= 0.0.0)
+  varnish (0.9.12)
