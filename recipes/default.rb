@@ -8,3 +8,4 @@
 #
 
 include_recipe "varnish"
+include_recipe "zabbix-quickndirty"
