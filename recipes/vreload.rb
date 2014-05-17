@@ -3,7 +3,7 @@
 user "vreload"
 
 sudo "vrleoad" do
-  user vreload
+  user "vreload"
   commands ['service varnish reload']
   nopasswd true
 end
