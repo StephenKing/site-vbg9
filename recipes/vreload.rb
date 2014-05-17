@@ -3,6 +3,7 @@
 user "vreload" do
   home "/home/vreload"
   manage_home true
+  shell "/bin/bash"
 end
 
 sudo "vrleoad" do
