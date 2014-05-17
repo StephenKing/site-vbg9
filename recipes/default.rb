@@ -12,3 +12,7 @@ include_recipe "varnish"
 include_recipe "newrelic"
 
 include_recipe "site-vbg9::vreload"
+
+%w{ htop iftop }.each do |pkg|
+  package pgk
+end
