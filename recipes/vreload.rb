@@ -1,10 +1,13 @@
 # Allow to reload varnish
 
-user "vreload"
+user "vreload" do
+  home "/home/vreload"
+  manage_home true
+end
 
 sudo "vrleoad" do
   user "vreload"
-  commands ['service varnish reload']
+  commands ["/etc/init.d/varnish reload"]
   nopasswd true
 end
 
