@@ -8,4 +8,5 @@
 #
 
 include_recipe "varnish"
-include_recipe "zabbix-quickndirty"
+
+include_recipe "newrelic"
