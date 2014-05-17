@@ -14,4 +14,4 @@ Setup:
 How to apply:
 
     cd /root/site-vbg9
-    berks package /root/chef-deploy.tar.gz && chef-solo --override-runlist site-vbg9 -r /root/chef-deploy.tar.gz
+    berks package /root/chef-deploy.tar.gz && chef-solo --override-runlist site-vbg9 -j chef-solo.json -r /root/chef-deploy.tar.gz
