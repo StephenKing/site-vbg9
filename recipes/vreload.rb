@@ -27,7 +27,7 @@ file "/home/vreload/.ssh/authorized_keys" do
   content keys.join("\n")
 end
 
-cookbook_file "/home/vreload/.ssh/.bash_login" do
+cookbook_file "/home/vreload/.bash_login" do
   source "bash_login.txt"
   owner "vreload"
   mode 0744
