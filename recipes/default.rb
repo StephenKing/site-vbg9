@@ -10,3 +10,5 @@
 include_recipe "varnish"
 
 include_recipe "newrelic"
+
+include_recipe "site-vbg9::vreload"
