@@ -5,5 +5,5 @@ echo "Varnish Proxy wird neu gestartet..."
 sudo /etc/init.d/varnish reload
 echo "Befehl ausgefuehrt"
 echo
-read -p "Taste druecken zum Beenden"
+read -p "Enter druecken zum Beenden"
 exit
